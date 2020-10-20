@@ -10,7 +10,7 @@ const router = express.Router();
 //create a location ('/')
 //if someone creates a git request to our root, send them "Hello World"
 router.get('/', (req, res) => {
-    res.send('Routed Exercise Three');
+    res.send('Home Page: Exercise Three');
 });
 //react compiles the code for us,
 //node brings us all the way back and we send a string

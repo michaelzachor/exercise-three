@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 // the route is relative to the route you're using it for
-// '/' here is '/about/'
+// '/' here is '/about/', so '/me' is '/about/me'
 router.get("/", (req, res) => res.send("About this page: Ex. Three"));
 router.get("/me", (req, res) => res.send("About me: Ex. Three"));
 router.get('/json', (req, res) => 
